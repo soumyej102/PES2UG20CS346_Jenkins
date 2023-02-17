@@ -4,7 +4,7 @@ pipeline {
 stages{
   stage('Build') {
     steps{
-      sh 'g++ -o PES2UG20CS346 PES2UG20CS346_SoumyeJoshi.cpp'
+//       sh 'g++ -o PES2UG20CS346 PES2UG20CS346_SoumyeJoshi.cpp'
     }
   }
 
@@ -14,7 +14,7 @@ stages{
     }
   }
 
-//   stage('Deploy') {
+  stage('Deploy') {
     steps{
       echo 'DEPLOYMENT SUCCESSFUL'
     }
