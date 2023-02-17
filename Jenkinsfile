@@ -14,7 +14,7 @@ stages{
     }
   }
 
-  stage('Deploy') {
+//   stage('Deploy') {
     steps{
       echo 'DEPLOYMENT SUCCESSFUL'
     }
